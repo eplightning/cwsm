@@ -1,0 +1,24 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+*.pdb
+*.exe
+*.vcxproj.user
+*.tlog
+*.obj
+*.lastbuildstate
+*.log
+*.suo
+*.sdf
+*.dll
