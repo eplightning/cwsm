@@ -34,4 +34,6 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 			std::cout << "CWSM: max_players address not found" << std::endl;
 		}
 	}
+
+	return TRUE;
 }
