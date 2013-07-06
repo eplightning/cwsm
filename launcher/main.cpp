@@ -29,8 +29,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		ResumeThread(thread);
 
 		CloseHandle(process_info.hProcess);
-		CloseHandle(process_info.hThread);
+		// CloseHandle(process_info.hThread);
 		CloseHandle(thread);
+
+		WaitForSingleObject(process_info.hThread, INFINITE); // for auto-restart scripts/programs/whatever
 
 		return 0;
 	}
